@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'meals.apps.MealsConfig',
+    'django_rest_knox',
     'rest_framework',
     'knox',
     'django_rest_passwordreset',
