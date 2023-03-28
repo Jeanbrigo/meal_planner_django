@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'meals.apps.MealsConfig',
-    'django_rest_knox',
     'rest_framework',
     'knox',
     'django_rest_passwordreset',
@@ -122,7 +121,7 @@ REST_FRAMEWORK = {
         
     ],
    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAdminUser'
+        'rest_framework.permissions.IsAdminUser',
    ),
 }
 
